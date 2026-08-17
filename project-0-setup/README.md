@@ -27,9 +27,9 @@ GitHub is a website where programmers keep their code, and it's where this whole
 
 Go to [github.com](https://github.com) and click **Sign up**. The form asks for an email address, a password, and a username. The username is the only one worth thinking about for a second, because it becomes part of the address of everything you put there: `github.com/[yourname]`. Pick something you wouldn't mind showing a stranger. You can rename things later, but starting with something reasonable saves you the trouble. Along the way GitHub may ask you to verify your email or solve a small puzzle to prove you're a person; do what it asks, and when it lets you in, this step is done.
 
-![The profile menu in GitHub's top right, with Profile and Repositories](screenshots/profile-menu.png)
-
 Before moving on, get your bearings. Once you're signed in, your profile picture sits in the top right corner of GitHub, and clicking it opens a menu with **Profile** and **Repositories** in it. Nearly everything you do on GitHub starts from that corner, and you'll be back in it constantly.
+
+![The profile menu in GitHub's top right, with Profile and Repositories](screenshots/profile-menu.png)
 
 **Checkpoint:** you're signed in, and clicking your profile picture and then **Profile** shows a page with your username on it. It looks empty for now, and that changes soon.
 
