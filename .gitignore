@@ -1,0 +1,18 @@
+# Reference solutions (our private testing copies, never pushed)
+_reference/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor configs (learners bring their own)
+.vscode/
+.idea/
+
+# Node (for later Node-based projects)
+node_modules/
+
+# Logs and env files (in case any project generates them)
+*.log
+.env
+.env.*
