@@ -24,4 +24,4 @@ _(no projects yet)_
 
 ---
 
-_New to the workshop? Start with the [introduction](./README.md), then work through [Project 0: Setup](./project-0-setup/README.md) to get your environment ready._
+_New to the workshop? Start with the [introduction](./README.md), then work through [Project 0: Setup](./0-setup/README.md) to get your environment ready._

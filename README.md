@@ -8,7 +8,7 @@ This is a workshop where you learn to code by building real things. Instead of v
 >
 > This repo is a **workshop organized like a book**. Each folder is a project (a chapter), and each project walks you through its exercises until the thing you're building genuinely works.
 >
-> **Just getting started?** Read [How to use this workshop](#how-to-use-this-workshop) below, then open [Project 0: Setup](./project-0-setup/README.md).
+> **Just getting started?** Read [How to use this workshop](#how-to-use-this-workshop) below, then open [Project 0: Setup](./0-setup/README.md).
 
 ## Table of contents
 
@@ -53,7 +53,7 @@ The workshop is organized like a book, except you'll be doing most of the writin
 
 Projects are grouped into levels, which are exactly what they sound like. Beginner projects assume you've never written code before, Intermediate ones assume you're comfortable with the basics, and Advanced ones go into deeper territory. The levels exist so you can find where you fit, and you can do the projects in any order you like, though if you're brand new to programming you'll have a much better time going in order, at least for the first level. The full list lives in the [project catalog](./INDEX.md).
 
-To work through the projects you'll need your own copy of the workshop, and [Project 0: Setup](./project-0-setup/README.md) shows you how to get one. Your copy also isn't stuck at the moment you got it: when new projects appear here, yours can pull them in, and that's covered in Project 0 as well.
+To work through the projects you'll need your own copy of the workshop, and [Project 0: Setup](./0-setup/README.md) shows you how to get one. Your copy also isn't stuck at the moment you got it: when new projects appear here, yours can pull them in, and that's covered in Project 0 as well.
 
 Work at whatever pace feels right. There's no schedule and nobody keeping score, and some exercises will take you twenty minutes while others take three separate sittings, and both of those are normal. The workshop isn't going anywhere.
 
@@ -77,7 +77,7 @@ Nobody checks your `PROGRESS.md` and nothing validates it. It's yours, for you, 
 
 ## Where to start
 
-With [Project 0: Setup](./project-0-setup/README.md). It covers everything that needs to happen once before any real coding begins: getting the workshop onto your own machine, installing the tools, and making your first commit, which is programmer for saving your work in the way the entire world of software saves its work. You don't need to know anything about GitHub to begin, and you don't need an account yet either; Project 0 starts at the very beginning, including that. And you never need to go looking for anything on GitHub yourself, because the links in these pages do the navigating: click that one and you're reading Project 0. It's short and guided, and by the end of it you're ready for Project 1.
+With [Project 0: Setup](./0-setup/README.md). It covers everything that needs to happen once before any real coding begins: getting the workshop onto your own machine, installing the tools, and making your first commit, which is programmer for saving your work in the way the entire world of software saves its work. You don't need to know anything about GitHub to begin, and you don't need an account yet either; Project 0 starts at the very beginning, including that. And you never need to go looking for anything on GitHub yourself, because the links in these pages do the navigating: click that one and you're reading Project 0. It's short and guided, and by the end of it you're ready for Project 1.
 
 ## License
 

@@ -101,11 +101,11 @@ Then clone it from VS Code. Click the **Source Control** icon in the bar on the 
 
 Paste the address you copied and press Enter. VS Code asks where the workshop should live on your machine, and the choice is worth a moment of thought: it creates a new folder named `workshop` inside whatever folder you pick, and a clone that lands in the wrong place is annoying to move later. Choose somewhere you'll remember. If you don't have an opinion yet, your Documents folder is a fine home. After you choose, VS Code downloads the workshop, and when it asks whether to open the folder it just created, say yes. The same job from a terminal is `git clone` followed by the address, run from whatever folder you want the workshop folder to end up inside.
 
-**Checkpoint:** the Explorer, the top icon in VS Code's left bar, now lists the workshop's files, and you can find this very page among them at `project-0-setup/README.md`.
+**Checkpoint:** the Explorer, the top icon in VS Code's left bar, now lists the workshop's files, and you can find this very page among them at `0-setup/README.md`.
 
 ## Step 6: Know your way around
 
-Take a moment with the file list in VS Code's Explorer, because knowing what you're looking at saves confusion later. Folders come first in that list, and each project lives in its own folder: `project-0-setup` is this one. The three level folders, `beginner`, `intermediate`, and `advanced`, are where each level's projects live as the workshop grows. Below the folders sit the files that belong to the workshop itself: `README.md` is the front door you came through, `INDEX.md` is the catalog of every project, `CHANGELOG.md` records what's new each time the workshop changes, `LICENSE` says what anyone is allowed to do with all of this, `.gitignore` is a small settings file telling git which files never to track, and `PROGRESS.md.template` is the blank your own `PROGRESS.md` gets copied from in the next step.
+Take a moment with the file list in VS Code's Explorer, because knowing what you're looking at saves confusion later. Folders come first in that list, and each project lives in its own folder: `0-setup` is this one. The three level folders, `1-beginner`, `2-intermediate`, and `3-advanced`, are where each level's projects live as the workshop grows. Below the folders sit the files that belong to the workshop itself: `README.md` is the front door you came through, `INDEX.md` is the catalog of every project, `CHANGELOG.md` records what's new each time the workshop changes, `LICENSE` says what anyone is allowed to do with all of this, `.gitignore` is a small settings file telling git which files never to track, and `PROGRESS.md.template` is the blank your own `PROGRESS.md` gets copied from in the next step.
 
 Everything in that list also lives on your repo's page on GitHub. Your clone and your fork are the same workshop in two places, one on your machine and one on GitHub, and by now you can find your way around both.
 
@@ -113,7 +113,7 @@ A habit worth picking up now that you can see these files as files: read the wor
 
 You'll also never have to guess where your work goes. Every exercise starts by naming the file it happens in, and your own files, beginning with `PROGRESS.md` in the next step, grow alongside the workshop's. And if you ever edit a workshop page by accident, Step 9 shows how to put it back as it was.
 
-**Checkpoint:** looking at the Explorer list, you can say what `project-0-setup/` is and what each of the workshop's files is for.
+**Checkpoint:** looking at the Explorer list, you can say what `0-setup/` is and what each of the workshop's files is for.
 
 ## Step 7: Start your PROGRESS.md
 
