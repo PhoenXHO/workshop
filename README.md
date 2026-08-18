@@ -1,83 +1,60 @@
 # The Workshop
 
-This is a workshop where you learn to code by building real things. Instead of videos or puzzles, you build small projects in short exercises, and the things you build actually run.
-
-> ### 📖 Read this first
+> [!NOTE]
 >
-> If GitHub's interface feels overwhelming, don't worry about the buttons and menus. None of them matter to you yet; this page only asks you to read.
->
-> This repo is a **workshop organized like a book**. Each folder is a project (a chapter), and each project walks you through its exercises until the thing you're building genuinely works.
->
-> **Just getting started?** Read [How to use this workshop](#how-to-use-this-workshop) below, then open [Project 0: Setup](./0-setup/README.md).
+> If you're new to GitHub, you don't need to worry about repository settings or menus; you only need to read through these pages. Each project folder is like a chapter, with step-by-step exercises inside. When you're ready to begin, head straight to [Project 0: Setup](./0-setup/README.md).
 
 ## Table of contents
 
 1. [Welcome](#welcome)
-2. [The rules](#the-rules)
+2. [Rules](#rules)
 3. [How to use this workshop](#how-to-use-this-workshop)
-4. [Skills, achievements, and your PROGRESS.md](#skills-achievements-and-your-progressmd)
-5. [Where to start](#where-to-start)
-6. [License](#license)
+4. [Where to start](#where-to-start)
+5. [License](#license)
 
-## Welcome
+## Welcome!
 
-This is a workshop. The way it works is simple: you build real things, and I walk you through it. Each project starts as a skeleton that already runs but doesn't do much yet, and it's your code that fills in the missing parts. I won't hand you answers, but I won't leave you hanging either. When you get stuck, the hints are waiting right where you need them.
+This is a hands-on workshop where you learn by building real projects.
 
-You don't need any experience to start. The first project is a small game. Small on purpose: you click a button, a number goes up, and it grows from there into something with upgrades, saved progress, and little touches that make it yours. Along the way, you pick up the tools every programmer uses daily. You pick them up by needing them, not by memorizing them.
+Each project starts as a runnable skeleton, and your task is to write the code that fills in the missing logic. If you get stuck, every exercise includes hints, so you always have a safety net while working through the logic yourself.
 
-One more thing before we dig in. You can't fail here. If your code doesn't work, you haven't failed. You've found one of the many ways it doesn't work yet, and now you fix it. Working programmers spend most of their day doing exactly this.
+You don't need any prior experience to get started. The first project is a simple browser clicker game that gradually grows into something more complete with upgrades, saved progress, custom styling, etc. You'll pick up standard developer tools and workflows naturally as your projects require them.
 
-**This is for you if:** you want to build things and you know how to use a computer. That's the whole bar.
+One more thing before we dig in: you can't really fail here. If your code isn't working, remember that professional developers spend much of their day diagnosing bugs and figuring out why something isn't working, so treat errors as normal practice rather than a mistake.
 
-**Not for you if:** you want theory before practice, or you want an AI to write your code for you. There's a rule about that one. It's the first rule.
+**Who this is for:** Anyone comfortable using a computer who wants to learn programming by building things.
 
-## The rules
+**Who this isn't for:** Anyone looking for deep computer science theory before writing code, or anyone planning to rely on AI to generate their answers.
 
-There are two, and they matter.
+## Rules
 
-**1. No AI.** Not ChatGPT, not Copilot, not Claude, none of them. The code you write here has to come out of your head.
-
-Here's why, and it's not because AI is evil. It's because of what happens to you. Every time a bot writes code for you at this stage, you skip the part where the skill gets built, and that part only happens while you struggle. Let a machine do the struggling, and you'll finish every project here with nothing to show for it.
-
-If you get stuck, that's what the hints are for. Use them.
-
-**2. No copy-pasting solutions.** Looking up "how does addEventListener work" is completely fine. That's not cheating; that's Tuesday for every working developer. What's not fine is finding something that builds the exercise for you and pasting it in.
-
-The test is simple: **if you can't explain what a line does, don't keep it.** If you can explain it, it's yours, wherever you first saw it.
-
-That's the whole contract: everything else in this workshop is a suggestion, but these two are rules.
+1. **No AI assistance.** Don't use ChatGPT, Copilot, Claude, or similar tools to write code for you. Generating code with AI skips the part where the skill gets built, and that part only happens while you work through the problem yourself. When you run into a wall, use the hints instead.
+2. **No copying premade solutions.** Looking up documentation or language syntax, such as checking how `addEventListener` works, is expected and standard practice. However, copying a full solution that solves the exercise for you means you finish it without learning anything. A simple rule of thumb: if you can't explain what a line of code does, do not keep it in your project.
 
 ## How to use this workshop
 
-The workshop is organized like a book, except you'll be doing most of the writing. Everything lives in projects, and each project is one real thing you build from start to finish, like a small game or a tool you can actually use. Each project lives in its own folder in this repo, and the work inside it is split into exercises, which are short steps that teach one idea at a time and always end with your code working.
+The workshop is organized into self-contained project folders, each focused on building a complete tool or game through short, incremental exercises. Projects are grouped by difficulty in the [project catalog](./INDEX.md). If you're new to programming, working through the Beginner level in order is recommended, though you're free to jump around.
 
-Projects are grouped into levels, which are exactly what they sound like. Beginner projects assume you've never written code before, Intermediate ones assume you're comfortable with the basics, and Advanced ones go into deeper territory. The levels exist so you can find where you fit, and you can do the projects in any order you like, though if you're brand new to programming you'll have a much better time going in order, at least for the first level. The full list lives in the [project catalog](./INDEX.md).
+To work through the projects you'll need your own copy of the workshop, so follow [Project 0: Setup](./0-setup/README.md) to set up your working environment.
 
-To work through the projects you'll need your own copy of the workshop, and [Project 0: Setup](./0-setup/README.md) shows you how to get one. Your copy also isn't stuck at the moment you got it: when new projects appear here, yours can pull them in, and that's covered in Project 0 as well.
+### Tips for working
 
-Work at whatever pace feels right. There's no schedule and nobody keeping score, and some exercises will take you twenty minutes while others take three separate sittings, and both of those are normal. The workshop isn't going anywhere.
+Work at whatever pace feels right. Some exercises take minutes, while others take multiple sessions to finish. And when you get stuck, check the collapsible hint section at the bottom of the exercise page. The hints go from gentle to more specific, the last one is usually a search phrase to look up, and none of them will ever just be the answer.
 
-When you get stuck, and you will, that's part of this and not a sign you're bad at it. Each exercise carries its own hints, folded up at the bottom so you don't see them by accident. They start gentle and get more specific, and the last one is usually a search phrase you can look up yourself, because learning to search for answers well is one of the most useful skills a programmer builds. What the hints never contain is the answer itself, and neither does anything else in this workshop.
+Also read these pages on GitHub, rendered in your browser. Opening them as plain text files in your code editor might accidentally spoil the hidden hints. It's not even comfortable to read anyway.
 
-One habit worth picking up early: keep the workshop open in a browser tab and read it there, and use your editor for writing code. These pages are written to be read rendered, and opening them as plain text in an editor is less comfortable to read and a good way to catch sight of things that are meant to stay folded up, like the hints.
+### Skills, achievements, and your PROGRESS.md
 
-## Skills, achievements, and your PROGRESS.md
+Each project lists the skills it covers (such as events, state management, or DOM manipulation) at the top of the page. As you complete projects, you'll copy these skills into your `PROGRESS.md`. More on that in [Project 0: Setup](./0-setup/README.md).
 
-Every project you finish leaves you with two things: a working thing you built, and a record of what you learned along the way. The record lives in a file called `PROGRESS.md` that you keep in your own copy of the workshop. It comes from a template the workshop provides, you'll set it up in Project 0, and it holds three things: the projects you've finished, the skills you've earned, and the achievements you've found. It starts empty and stays that way until you start earning, which happens fast.
+- **Prerequisites:** Later projects list required skills at the start. You can check your `PROGRESS.md` to see if you've covered those topics yet, or if you should complete an earlier project first.
+- **Achievements:** Projects also include secret achievements for exploring beyond the core exercises. When unlocked, these can be added to your `PROGRESS.md` log.
 
-At the top of every project you'll find the skills it teaches, each with the category it belongs to. Skills are plain names for real abilities, like events, or state, or debugging, and they're honest: if a project says it teaches timers, you will write actual timer code in it before you're done. When you finish a project, you copy its skills into your `PROGRESS.md`, filing each one under its category, and over time the file grows into a map of everything you can do.
-
-Skills also grow. Sometimes a later project teaches a skill you already have, and then there's nothing to write; the line is already there, and noticing that is its own small satisfaction. The list only ever grows.
-
-Projects after the first few don't re-teach everything from scratch, so the start of each one says which earlier projects it assumes and links to them. If you're missing something, you can go back and do the linked project, or skim through what it teaches if that's all you need. Your `PROGRESS.md` is how you know whether you're ready, and it will never judge you for going back.
-
-Projects also carry achievements, and these stay secret. At the start you'll only see how many are hiding, and each one reveals itself at the exact moment you earn it, along with a line to copy into your `PROGRESS.md`. They mark moments worth remembering, like the first time your button does something or the day your game remembers its own progress, and the better ones ask you to wander slightly off the path to find them.
-
-Nobody checks your `PROGRESS.md` and nothing validates it. It's yours, for you, and the whole point of it is that on a day when everything feels hard, you can open one file and see exactly how far you've come.
+`PROGRESS.md` exists entirely for your own reference, to keep track of what you have built and learned throughout the workshop.
 
 ## Where to start
 
-With [Project 0: Setup](./0-setup/README.md). It covers everything that needs to happen once before any real coding begins: getting the workshop onto your own machine, installing the tools, and making your first commit, which is programmer for saving your work in the way the entire world of software saves its work. You don't need to know anything about GitHub to begin, and you don't need an account yet either; Project 0 starts at the very beginning, including that. And you never need to go looking for anything on GitHub yourself, because the links in these pages do the navigating: click that one and you're reading Project 0. It's short and guided, and by the end of it you're ready for Project 1.
+Head over to [Project 0: Setup](./0-setup/README.md) to get started. It covers everything you need before writing code, including setting up your development environment, installing tools, and making your first commit. You don't need any prior experience with GitHub to begin. It'll walk you through everything. Just click the link.
 
 ## License
 
